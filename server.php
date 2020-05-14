@@ -45,7 +45,7 @@
         if (isset($_POST['login'])){
                 $username = $_POST['username']; 
                 $password = $_POST['password'];
-
+                
 
                 // If the fields are not complete following errors will apear
 
@@ -54,10 +54,13 @@
                 }
                 if (empty($password)) {
                     array_push($errors, "Password is required");
+                }
                     if (count($errors) == 0 ){
                         $password = md5($password); //encrypting
                         $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
                         $result = mysqli_query($db, $query);
+                        // var_dump($result);
+                        // die();
                         if (mysqli_num_rows($result) == 1){
                             //user logged in
                             $_SESSION['username'] = $username;
@@ -69,7 +72,7 @@
                         }
                     }
         
-                }
+                
         }
         //Logout
         if (isset($_GET['logout'])) {

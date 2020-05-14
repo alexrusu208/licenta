@@ -64,7 +64,7 @@
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-						<input class="input100" type="password" name="password_1" value="<?php echo $password_1; ?>">
+						<input class="input100" type="password" name="password_1">
 						<span class="focus-input100"></span>
                     </div>
                     
@@ -75,7 +75,7 @@
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-						<input class="input100" type="password" name="password_2" value="<?php echo $password_2; ?>">
+						<input class="input100" type="password" name="password_2">
 						<span class="focus-input100"></span>
 					</div>
 					

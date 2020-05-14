@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <?php
 
     $to = "rockybd1995@gmail.com";

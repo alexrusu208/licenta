@@ -25,8 +25,13 @@
                                         <li><a href="rooms.php">Rooms</a></li>    
                                         <li><a href="gallery.php">Gallery</a></li>                                                                                                                     
                                         <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="login.php">Login</a></li>
-                                        <li><a href="register.php">Register</a></li>
+                                        <!-- <li><a href="login.php">Login</a></li> -->
+                                        <li> <?php if (!isset($_SESSION["username"])): ?>
+                                        <a href="index.php?logout='0'">Login</a></li>
+                                        <?php endif ?>
+                                        <li> <?php if (isset($_SESSION["username"])): ?>
+                                        <a href="index.php?logout='1'">Logout</a></li>
+                                        <?php endif ?>
                                     </ul>
                                 </nav>
                             </div>

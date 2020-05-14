@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
