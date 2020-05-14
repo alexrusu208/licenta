@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -10,17 +11,34 @@
         <?php include('./views/header.php') ?>
     </header>
     <main>
+        <div class="content">
+            <?php if (isset($_SESSION['succes'])): ?>
+                <div class="success">
+                    <h3>
+                        <?php
+                            echo $_SESSION['success'];
+                            unset($_SESSION['success']);
+                        ?>
+                    </h3>
+                </div>
+            <?php endif ?>
+
+            <?php if (isset($_SESSION["username"])): ?>
+                <p>Welcome<strong><?php echo $_SESSION['username']; ?></strong></p>
+                <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
+            <?php endif ?>
+        </div>
 
         <!-- slider Area Start-->
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active dot-style">
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_marea_neagra.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s">Arinne</h1>
                                     <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
                                 </div>
                             </div>
@@ -32,7 +50,7 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s">Arinne</h1>
                                     <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
                                 </div>
                             </div>
@@ -44,7 +62,7 @@
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
                                 <div class="h1-slider-caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s">top hotel in the city</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s">Arinne</h1>
                                     <h3 data-animation="fadeInDown" data-delay=".4s">Hotel & Resourt</h3>
                                 </div>
                             </div>
@@ -151,35 +169,6 @@
         </div>
         <!-- Booking Room End-->
 
-        <!-- Make customer Start-->
-        <section class="make-customer-area customar-padding fix">
-            <div class="container-fluid p-0">
-                <div class="row">
-                   <div class="col-xl-5 col-lg-6">
-                        <div class="customer-img mb-120">
-                            <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
-                            <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
-                            <div class="service-experience heartbeat">
-                                <h3>25 Years of Service<br>Experience</h3>
-                            </div>
-                        </div>
-                   </div>
-                    <div class=" col-xl-4 col-lg-4">
-                        <div class="customer-caption">
-                            <span>About our company</span>
-                            <h2>Make the customer the hero of your story</h2>
-                            <div class="caption-details">
-                                <p class="pera-dtails">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed do eiusmod tempor inc. </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-                                <a href="#" class="btn more-btn1">Learn More <i class="ti-angle-right"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Make customer End-->
-
         <!-- Room Start -->
         <section class="room-area">
             <div class="container">
@@ -282,7 +271,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="room-btn pt-70">
-                        <a href="#" class="btn view-btn1">View more  <i class="ti-angle-right"></i> </a>
+                        <a href="./rooms.php" class="btn view-btn1">View more  <i class="ti-angle-right"></i> </a>
                     </div>
                 </div>
             </div>
@@ -324,156 +313,6 @@
             </div> 
         </div>
         <!-- Dining End -->
-
-        <!-- Testimonial Start -->
-        <div class="testimonial-area testimonial-padding">
-            <div class="container">
-               <div class="row justify-content-center">
-                    <div class="col-xl-9 col-lg-9 col-md-9">
-                        <div class="h1-testimonial-active">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial pt-65">
-                                <!-- Testimonial tittle -->
-                                <div class="font-back-tittle mb-105">
-                                    <div class="archivment-front">
-                                        <img src="assets/img/logo/testimonial.png" alt="">
-                                    </div>
-                                    <h3 class="archivment-back">Testimonial</h3>
-                                </div>
-                                 <!-- Testimonial Content -->
-                                <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-                                    </p>
-                                    <!-- Rattion -->
-                                    <div class="testimonial-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial  pt-65">
-                                <!-- Testimonial tittle -->
-                                <div class="font-back-tittle mb-105">
-                                    <div class="archivment-front">
-                                        <img src="assets/img/logo/testimonial.png" alt="">
-                                    </div>
-                                    <h3 class="archivment-back">Testimonial</h3>
-                                </div>
-                                <!-- Testimonial Content -->
-                                <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-                                    </p>
-                                    <div class="testimonial-ratting">
-                                        <a href="#"><i class="fas fa-star"></i></a>
-                                        <a href="#"><i class="fas fa-star"></i></a>
-                                        <a href="#"><i class="fas fa-star"></i></a>
-                                        <a href="#"><i class="fas fa-star"></i></a>
-                                        <a href="#"><i class="fas fa-star"></i></a>
-                                    </div>
-                                    <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-        <!-- Blog Start -->
-       <div class="blog-area blog-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
-                        <!-- Seciton Tittle  -->
-                        <div class="font-back-tittle mb-50">
-                            <div class="archivment-front">
-                                <h3>Our Blog</h3>
-                            </div>
-                            <h3 class="archivment-back">Recent News</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <!-- Single Blog -->
-                        <div class="single-blog mb-30">
-                            <div class="blog-img">
-                                <a href="single-blog.php"><img src="assets/img/our_blog/blog-img1.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-caption">
-                                <div class="blog-cap-top d-flex justify-content-between mb-40">
-                                    <span>news</span>
-                                    <ul><li>by<a href="#"> Jhon Guru</a></li></ul>
-                                </div>
-                                <div class="blog-cap-mid">
-                                    <p><a href="single-blog.php">5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</a></p>
-                                </div>
-                                <!-- Comments -->
-                                <div class="blog-cap-bottom d-flex justify-content-between">
-                                    <span>Feb 28, 2020</span>
-                                    <span><img src="assets/img/our_blog/blog-comments-icon.jpg" alt="">3</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <!-- Single Blog -->
-                        <div class="single-blog mb-30">
-                            <div class="blog-img">
-                               <a href="single-blog.php"> <img src="assets/img/our_blog/blog-img2.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-caption">
-                                <div class="blog-cap-top d-flex justify-content-between mb-40">
-                                    <span>news</span>
-                                    <ul><li>by<a href="#"> Jhon Guru</a></li></ul>
-                                </div>
-                                <div class="blog-cap-mid">
-                                    <p><a href="single-blog.php">5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</a></p>
-                                </div>
-                                <!-- Comments -->
-                                <div class="blog-cap-bottom d-flex justify-content-between">
-                                    <span>Feb 28, 2020</span>
-                                    <span><img src="assets/img/our_blog/blog-comments-icon.jpg" alt="">3</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <!-- Single Blog -->
-                        <div class="single-blog mb-30">
-                            <div class="blog-img">
-                                <a href="single-blog.php"><img src="assets/img/our_blog/blog-img3.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-caption">
-                                <div class="blog-cap-top d-flex justify-content-between mb-40">
-                                    <span>news</span>
-                                    <ul><li>by<a href="#"> Jhon Guru</a></li></ul>
-                                </div>
-                                <div class="blog-cap-mid">
-                                    <p><a href="single-blog.php">5 Simple Tricks for Getting Stellar Hotel Service Wherever You Are</a></p>
-                                </div>
-                                <!-- Comments -->
-                                <div class="blog-cap-bottom d-flex justify-content-between">
-                                    <span>Feb 28, 2020</span>
-                                    <span><img src="assets/img/our_blog/blog-comments-icon.jpg" alt="">3</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-       </div>
-        <!-- Blog End -->
 
         <!-- Gallery img Start-->
         <div class="gallery-area fix">

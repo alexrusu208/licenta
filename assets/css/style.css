@@ -370,7 +370,7 @@ label {
   color: #888; }
 
 .owl-carousel .owl-nav div {
-  background: #646464 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   height: 40px;
   left: 20px;
   line-height: 40px;
@@ -383,7 +383,7 @@ label {
   visibility: hidden;
   width: 40px;
   font-size: 22px;
-  color: #646464; }
+  color: #fff; }
 
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
@@ -430,7 +430,7 @@ label {
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-  background: #646464;
+  background: #fff;
   padding-left: 85px;
   padding-right: 85px; }
 
@@ -1916,7 +1916,7 @@ label {
     content: "";
     width: 154px;
     height: 2px;
-    background: #e59a09;
+    background: #fff;
     top: 0;
     left: -180px;
     top: 50%;
@@ -1926,7 +1926,7 @@ label {
     content: "";
     width: 170px;
     height: 2px;
-    background: #e59a09;
+    background: #fff;
     top: 0;
     right: -190px;
     top: 50%;
@@ -2736,7 +2736,7 @@ label {
     content: "";
     width: 75px;
     height: 3px;
-    background: #dca73a;
+    background: white;
     left: 0;
     top: 52%;
     transform: translateY(-50%); }

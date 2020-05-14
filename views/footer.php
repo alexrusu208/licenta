@@ -13,22 +13,17 @@
                              <a href="#"><i class="fas fa-globe"></i></a>
                              <a href="#"><i class="fab fa-behance"></i></a>
                          </div>
-                         <div class="footer-pera">
-                              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                          </div>
-                      </div>
                    </div>
                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
                                <h4>Quick Links</h4>
                                <ul>
-                                   <li><a href="#">About Mariana</a></li>
-                                   <li><a href="#">Our Best Rooms</a></li>
-                                   <li><a href="#">Our Photo Gellary</a></li>
-                                   <li><a href="#">Pool Service</a></li>
+                                   <li><a href="./informations.php">About Arinne</a></li>
+                                   <li><a href="./rooms.php">Our Rooms</a></li>
+                                   <li><a href="./gallery.php">Our Photo Gallery</a></li>
+                                   <li><a href="./workshops.php">Our Workshops</a></li>
                                </ul>
                            </div>
                        </div>
@@ -38,9 +33,8 @@
                            <div class="footer-tittle">
                                <h4>Reservations</h4>
                                <ul>
-                                   <li><a href="#">Tel: 345 5667 889</a></li>
-                                   <li><a href="#">Skype: Marianabooking</a></li>
-                                   <li><a href="#">reservations@hotelriver.com</a></li>
+                                   <li><a href="#">Tel: 123 4567 890</a></li>                                   
+                                   <li><a href="#">reservations@arinnehotel.com</a></li>
                                </ul>
                            </div>
                        </div>
@@ -48,15 +42,10 @@
                    <div class="col-xl-3 col-lg-3 col-md-4  col-sm-5">
                        <div class="single-footer-caption mb-30">
                            <div class="footer-tittle">
-                               <h4>Our Location</h4>
-                               <ul>
-                                   <li><a href="#">198 West 21th Street,</a></li>
-                                   <li><a href="#">Suite 721 New York NY 10016</a></li>
-                               </ul>
                                <!-- Form -->
                                 <div class="footer-form" >
                                     <div id="mc_embed_signup">
-                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                        <!-- <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                                         method="get" class="subscribe_form relative mail_part">
                                             <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
                                             class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
@@ -66,7 +55,7 @@
                                               class="email_icon newsletter-submit button-contactForm"><img src="assets/img/logo/form-iocn.jpg" alt=""></button>
                                             </div>
                                             <div class="mt-10 info"></div>
-                                        </form>
+                                        </form> -->
                                     </div>
                                 </div>
                            </div>

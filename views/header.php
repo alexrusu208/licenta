@@ -14,26 +14,23 @@
                                 <nav>
                                     <ul id="navigation">                                                                                                                                     
                                         <li><a href="index.php">Home</a></li>
-                                        <li><a href="about.php">About</a></li>
-                                        <li><a href="services.php">Service</a></li>
+                                        <li><a href="informations.php">Info</a></li>
+                                        <li><a href="workshops.php">Workshops</a></li>
                                         <!-- <li><a href="blog.php">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.php">Blog</a></li>
                                                 <li><a href="single-blog.php">Blog Details</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="rooms.php">Rooms</a></li>                                                                                 
+                                        <li><a href="rooms.php">Rooms</a></li>    
+                                        <li><a href="gallery.php">Gallery</a></li>                                                                                                                     
                                         <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="login.php">Login</a></li>
+                                        <li><a href="register.php">Register</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>             
-                        <div class="col-xl-2 col-lg-2">
-                            <!-- header-btn -->
-                            <div class="header-btn">
-                                <a href="#" class="btn btn1 d-none d-lg-block ">Book Online</a>
-                            </div>
-                        </div>
                         <!-- Mobile Menu -->
                         <div class="col-12">
                             <div class="mobile_menu d-block d-lg-none"></div>

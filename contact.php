@@ -74,7 +74,7 @@
     
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
+                        <h2 class="contact-title">Send us an email</h2>
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
@@ -109,22 +109,20 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                <h3>Buttonwood, California.</h3>
-                                <p>Rosemead, CA 91770</p>
+                                <h3>Licenta, Brasov.</h3>
+                                <p>IAG, drittes Jahrgang</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                             <div class="media-body">
-                                <h3>+1 253 565 2365</h3>
-                                <p>Mon to Fri 9am to 6pm</p>
+                                <h3>+1 234 567 890</h3>                               
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                <h3>support@colorlib.com</h3>
-                                <p>Send us your query anytime!</p>
+                                <h3>reservations@arinnehotel.com</h3>
                             </div>
                         </div>
                     </div>

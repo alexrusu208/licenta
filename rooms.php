@@ -52,7 +52,7 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -122,17 +122,13 @@
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ par night</span></span>
+                                    <span><u>$</u>150 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="room-btn pt-70">
-                        <a href="#" class="btn view-btn1">View more  <i class="ti-angle-right"></i> </a>
-                    </div>
-                </div>
+
             </div>
 
         </section>
