@@ -42,40 +42,40 @@
 						Create new Account
 					</span>
 
-					<span class="txt1 p-b-11" type="text" name="username" value="<?php echo $username; ?>">
+					<label class="txt1 p-b-11">
 						Username
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-						<input class="input100" >
+						<input class="input100" type="text" name="username" value="<?php echo $username; ?>">
 						<span class="focus-input100"></span>
                     </div>
-                    <span class="txt1 p-b-11" type="text" name="email" value="<?php echo $email; ?>">
+                    <label class="txt1 p-b-11">
 						Email
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "Email is required">
-						<input class="input100" >
+						<input class="input100" type="text" name="email" value="<?php echo $email; ?>">
 						<span class="focus-input100"></span>
 					</div>
 					
-					<span class="txt1 p-b-11" type="password" name="password_1" value="<?php echo $password_1; ?>">
+					<label class="txt1 p-b-11">
 						Password
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-						<input class="input100">
+						<input class="input100" type="password" name="password_1" value="<?php echo $password_1; ?>">
 						<span class="focus-input100"></span>
                     </div>
                     
-                    <span class="txt1 p-b-11" type="password" name="password_2" value="<?php echo $password_2; ?>">
+                    <label class="txt1 p-b-11">
 						Confirm Password
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-						<input class="input100" >
+						<input class="input100" type="password" name="password_2" value="<?php echo $password_2; ?>">
 						<span class="focus-input100"></span>
 					</div>
 					

@@ -42,22 +42,22 @@
 						Account Login
 					</span>
 
-					<span class="txt1 p-b-11" type="text" name="username">
+					<label class="txt1 p-b-11" >
 						Username
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-						<input class="input100"  >
+						<input class="input100" type="text" name="username">
 						<span class="focus-input100"></span>
 					</div>
 					
-					<span class="txt1 p-b-11" type="password" name="password">
+					<label class="txt1 p-b-11" >
 						Password
-					</span>
+					</label>
 					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>
-						<input class="input100"  >
+						<input class="input100" type="password" name="password">
 						<span class="focus-input100"></span>
 					</div>
 					
