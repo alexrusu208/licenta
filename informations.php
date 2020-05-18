@@ -66,9 +66,9 @@
                     <div class="row justify-content-end">
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption">
-                                <span>Our resturent</span>
-                                <h3>Dining & Drinks</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                                <h3>Restaurant</h3>
+                                <p>In our restaurant the breakfast is included in the room price.<br>
+                                   You cand also eat lunch in our hotel but the price is not included in the price of the room.</p>
                                 <a href="#" class="btn border-btn">Learn More <i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
@@ -81,10 +81,9 @@
                     <div class="row justify-content-start">
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption text-right">
-                                <span>Our Pool</span>
-                                <h3>Swimming Pool</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
-                                <a href="#" class="btn border-btn">Learn More  <i class="ti-angle-right"></i></a>
+                                <h3>Spa and swimming pool</h3>
+                                <p>Arinne also has a SPA area where you can spend your time relaxing<br>
+                                        In addition, the hotel swimming pool is open 24 hours a day</p>
                             </div>
                         </div>
                     </div>

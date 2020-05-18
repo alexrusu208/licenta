@@ -8,10 +8,7 @@
                            <a href="index.php"><img src="assets/img/logo/Arinne.jpg" alt=""></a>
                          </div>
                          <div class="footer-social footer-social2">
-                             <a href="#"><i class="fab fa-facebook-f"></i></a>
-                             <a href="#"><i class="fab fa-twitter"></i></a>
-                             <a href="#"><i class="fas fa-globe"></i></a>
-                             <a href="#"><i class="fab fa-behance"></i></a>
+                             <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                          </div>
                          </div>
                    </div>
