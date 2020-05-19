@@ -3,7 +3,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <strong>Hotel</b>
+                    <strong>Arinne</b>
                 </div>
             </div>
         </div>

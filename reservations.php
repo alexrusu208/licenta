@@ -1,4 +1,8 @@
-<?php include('server.php'); ?>
+<?php include('./server.php'); 
+if($_SESSION['username'] != true) {
+    echo "<script>window.location = 'http://localhost/licenta/sorry.php'</script>";
+    exit();
+}?>
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -68,40 +72,68 @@
         </div>
         <!-- slider Area End -->
 
-        <!-- Dining Start -->
-        <div class="dining-area dining-padding-top">
-            <!-- Single Left img -->
-            <div class="single-dining-area left-img">
-                <div class="container">
-                    <div class="row justify-content-end">
-                        <div class="col-lg-8 col-md-8">
-                            <div class="dining-caption">
-                                <h3>Summer Workshops</h3>
-                                <p>We present you the new concept of combining passive relaxation <br> with active relaxation in form of workshops</p>
-                                <a href="workshops.php" class="btn border-btn">View More <i class="ti-angle-right"></i> </a>
-                            </div>
+        <!-- Booking Room Start-->
+        <div class="booking-area">
+            <div class="container">
+               <div class="row ">
+               <div class="col-12">
+                <form action="">
+                <div class="booking-wrap d-flex justify-content-between align-items-center">
+                 
+                    <!-- select in date -->
+                    <div class="single-select-box mb-30">
+                        <!-- select out date -->
+                        <div class="boking-tittle">
+                            <span> Check In Date:</span>
                         </div>
-                    </div>
-                </div>
-            </div> 
-            <!-- single Right img -->
-            <div class="single-dining-area right-img">
-                <div class="container">
-                    <div class="row justify-content-start">
-                        <div class="col-lg-8 col-md-8">
-                            <div class="dining-caption text-right">
-                                <h3>Conference hall/ Cinema</h3>
-                                <p>We present our conference room equipped <br> with a video projector with the latest technology.  <br>Here you can watch documentaries that will broaden your knowledge <br>or you can relax watching movie with your loved ones.</p>
-                            </div>
+                        <div class="boking-datepicker">
+                            <input id="datepicker1"  placeholder="10/12/2020" />
                         </div>
-                    </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-30">
+                        <!-- select out date -->
+                        <div class="boking-tittle">
+                            <span>Check OutDate:</span>
+                        </div>
+                        <div class="boking-datepicker">
+                            <input id="datepicker2"  placeholder="12/12/2020" />
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-30">
+                        <div class="boking-tittle">
+                            <span>Rooms:</span>
+                        </div>
+                        <div class="select-this">
+                            <form action="#">
+                                <div class="select-itms">
+                                    <select name="select" id="select3">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box pt-45 mb-30">
+                        <a href="#" class="btn select-btn">Book Now</a>
+                   </div>
+               
+
                 </div>
-            </div> 
+            </form>
+               </div>
+               </div>
+            </div>
         </div>
-        <!-- Dining End -->
+        <!-- Booking Room End-->
 
         <!-- Gallery img Start-->
-        <div class="gallery-area-home fix">
+        <div class="gallery-area1 fix">
             <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-md-12">

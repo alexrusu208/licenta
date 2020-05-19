@@ -64,7 +64,7 @@
 
 
         <!-- Gallery img Start-->
-        <div class="gallery-area fix">
+        <div class="gallery-area-workshop fix">
             <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-md-12">
