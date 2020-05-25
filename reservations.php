@@ -32,7 +32,7 @@ if($_SESSION['username'] != true) {
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active dot-style">
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_marea_neagra.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
@@ -44,7 +44,7 @@ if($_SESSION['username'] != true) {
                         </div>
                     </div>
                 </div>
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper2.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
@@ -56,7 +56,7 @@ if($_SESSION['username'] != true) {
                         </div>
                     </div>
                 </div>
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper3.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
@@ -77,7 +77,7 @@ if($_SESSION['username'] != true) {
             <div class="container">
                <div class="row ">
                <div class="col-12">
-                <form action="">
+                <form method="post" action="reservations.php">
                 <div class="booking-wrap d-flex justify-content-between align-items-center">
                  
                     <!-- select in date -->
@@ -87,7 +87,7 @@ if($_SESSION['username'] != true) {
                             <span> Check In Date:</span>
                         </div>
                         <div class="boking-datepicker">
-                            <input id="datepicker1"  placeholder="10/12/2020" />
+                            <input type="date" name="check_in_date" value="<?php echo $check_in_date; ?>" />
                         </div>
                    </div>
                     <!-- Single Select Box -->
@@ -97,7 +97,7 @@ if($_SESSION['username'] != true) {
                             <span>Check OutDate:</span>
                         </div>
                         <div class="boking-datepicker">
-                            <input id="datepicker2"  placeholder="12/12/2020" />
+                            <input type="date" name="check_out_date" value="<?php echo $check_out_date; ?>" />
                         </div>
                    </div>
                     <!-- Single Select Box -->
@@ -106,21 +106,26 @@ if($_SESSION['username'] != true) {
                             <span>Rooms:</span>
                         </div>
                         <div class="select-this">
-                            <form action="#">
                                 <div class="select-itms">
-                                    <select name="select" id="select3">
+                                    <select name="room_nr" id="room_nr" type="text">
                                         <option value="">1</option>
                                         <option value="">2</option>
                                         <option value="">3</option>
                                         <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
                                     </select>
                                 </div>
-                            </form>
                         </div>
                    </div>
+                        
                     <!-- Single Select Box -->
                     <div class="single-select-box pt-45 mb-30">
-                        <a href="#" class="btn select-btn">Book Now</a>
+                        <button type="submit" name="book_now" class="btn select-btn">
+                            Book Now
+						</button>
                    </div>
                
 

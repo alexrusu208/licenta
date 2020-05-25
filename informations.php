@@ -15,7 +15,7 @@
 
         <!-- slider Area Start-->
         <div class="slider-area">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/aboutpage_hero.jpg" >
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/informations.jpg" >
                 <div class="container">
                     <div class="row ">
                         <div class="col-md-11 offset-xl-1 offset-lg-1 offset-md-1">
@@ -36,8 +36,8 @@
                 <div class="row">
                    <div class="col-xl-5 col-lg-6">
                         <div class="customer-img mb-120">
-                            <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
-                            <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
+                            <img src="assets/img/customer/customer1.png" class="customar-img1" alt="">
+                            <img src="assets/img/customer/customer2.png" class="customar-img2" alt="">
                             <div class="service-experience heartbeat">
                                 <h3>Relaxing,<br>Activities for you<br>and your children</h3>
                             </div>

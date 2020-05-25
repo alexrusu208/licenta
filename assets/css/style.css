@@ -1816,7 +1816,7 @@ label {
       transition: all 0.3s ease-out 0s;
       font-family: 'Lato', sans-serif; }
     .main-header .main-menu ul li:hover > a {
-      color: #dca73a; }
+      color: #6e9cff; }
   .main-header .main-menu ul ul.submenu {
     position: absolute;
     width: 170px;
@@ -2449,7 +2449,7 @@ label {
       content: "";
       top: 0;
       bottom: 0;
-      background-image: url(../img/dining/dining-img.png);
+      background-image: url(../img/dining/dining-img1.png);
       width: 50%;
       border-radius: 0 5px 0 0;
       background-size: cover;
@@ -2481,7 +2481,7 @@ label {
       content: "";
       top: 0;
       bottom: 0;
-      background-image: url(../img/dining/dining-img.png);
+      background-image: url(../img/dining/dining-img1.png);
       width: 50%;
       border-radius: 0 5px 0 0;
       background-size: cover;
@@ -2498,7 +2498,7 @@ label {
       content: "";
       top: 0;
       bottom: 0;
-      background-image: url(../img/dining/dining-img.png);
+      background-image: url(../img/dining/dining-img1.png);
       width: 50%;
       border-radius: 0 5px 0 0;
       background-size: cover;
@@ -2680,7 +2680,7 @@ label {
 .pb-168 {
   padding-bottom: 168px; }
 .gallery-area1{
-  margin-top: 125px;
+  margin-top: 275px;
 }
 .gallery-area-workshop{
   margin-top: 50px;

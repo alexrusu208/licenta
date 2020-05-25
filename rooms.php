@@ -14,7 +14,7 @@
 
         <!-- slider Area Start-->
         <div class="slider-area">
-            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/roomspage_hero.jpg" >
+            <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="assets/img/hero/wallpaper2.jpg" >
                 <div class="container">
                     <div class="row ">
                         <div class="col-md-11 offset-xl-1 offset-lg-1 offset-md-1">
@@ -119,6 +119,34 @@
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="rooms.php"> <img src="assets/img/rooms/room6.jpg" alt=""></a>
+                            </div>
+                            <div class="room-caption">
+                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <div class="per-night">
+                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <!-- Single Room -->
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="rooms.php"> <img src="assets/img/rooms/room7.jpg" alt=""></a>
+                            </div>
+                            <div class="room-caption">
+                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <div class="per-night">
+                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <!-- Single Room -->
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="rooms.php"> <img src="assets/img/rooms/room8.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
                                 <h3><a href="rooms.php">Classic Double Bed</a></h3>

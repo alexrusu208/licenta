@@ -28,7 +28,7 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active dot-style">
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_marea_neagra.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper2.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg" >
+                <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/wallpaper3.jpg" >
                     <div class="container">
                         <div class="row justify-content-center text-center">
                             <div class="col-xl-9">
