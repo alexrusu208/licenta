@@ -93,6 +93,24 @@
                            
                         </div>
                     </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <!-- Single Room -->
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets/img/rooms/room7.jpg" data-lightbox="picture7"> <img src="assets/img/rooms/room7.jpg" alt=""></a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <!-- Single Room -->
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets/img/rooms/room8.jpg" data-lightbox="picture8"> <img src="assets/img/rooms/room8.jpg" alt=""></a>
+                            </div>
+                           
+                        </div>
+                    </div>
                 </div>
 
             </div>

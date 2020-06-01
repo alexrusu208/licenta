@@ -210,8 +210,14 @@
 /* 10. WOW active */
     new WOW().init();
 
+    
+    $('#datepicker1').datepicker({
+      dateFormat: "dd-mm-yy",
+      duration: "fast",
+      minDate: new Date()
+    });
+
 /* 11. Datepicker */
-    $('#datepicker1').datepicker();
     $('#datepicker2').datepicker();
 
 

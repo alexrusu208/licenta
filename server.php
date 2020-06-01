@@ -3,9 +3,7 @@
         $username = "";
         $email = "";
         $errors = array();
-        $check_in_date = date('d/m/y');
-        $check_out_date = date('d/m/y');
-        $room_nr = "";
+       
         
         
         //connect to the database
@@ -75,23 +73,25 @@
         if (isset($_POST['book_now'])){
             $check_in_date = $_POST['check_in_date'];
             $check_out_date = $_POST['check_out_date'];
-            $room_nr = $_POST['room_nr'];
-
-            // $sql_check_in_date = "SELECT * FROM reservation WHERE check_in_date = '$check_in_date'";
-            // $sql_check_out_date = "SELECT * FROM reservation WHERE check_out_date = '$check_out_date'";
-            // $sql_room_nr = "SELECT * FROM reservation WHERE room_nr = '$room_nr'";
-            // $res_check_in_date = mysqli_query($db, $sql_check_in_date);
-            // $res_check_out_date = mysqli_query($db, $sql_check_out_date);
-            // $res_room_nr = mysqli_query($db, $sql_room_nr);
+            $roomNr = $_POST['room_nr'];
+            $user = $_SESSION['username'];
+            $check_reservation = "SELECT * FROM reservation WHERE
+                                  (check_in_date <= '$check_in_date' AND check_out_date >= '$check_out_date') 
+                                  OR ('$check_in_date' BETWEEN check_in_date AND check_out_date) 
+                                  OR ('$check_out_date' BETWEEN check_in_date AND check_out_date)
+                                  AND room_nr = '$roomNr'";
+            $res_reservation = mysqli_query($db, $check_reservation);
             
-            if("SELECT * FROM reservation WHERE check_in_date >= '$check_in_date' AND check_out_date <= '$check_out_date' AND room_nr = '$room_nr'"){
+            $row_nr = mysqli_num_rows($res_reservation);
+            if($row_nr > 0){
                 echo '<script>alert("This room is already booked between the dates you selected.")</script>';
             }else {
-                $sql = "INSERT INTO reservation (check_in_date, check_out_date, room_nr) 
-                            VALUES ('$check_in_date', '$check_out_date', '$room_nr')";
-                // mysqli_query($db, $sql);
+                $sql = "INSERT INTO reservation (check_in_date, check_out_date, room_nr, id_user) 
+                            VALUES ('$check_in_date', '$check_out_date', '$roomNr', '$user')";
+                mysqli_query($db, $sql);
                 echo '<script>alert("Your reservation was succesfully registered. See you at Arrine!")</script>';
             }
+        
             
         }
         //Logout
