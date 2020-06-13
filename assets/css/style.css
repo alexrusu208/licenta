@@ -5065,3 +5065,10 @@ h6 {
 
 .switch-wrap {
   margin-bottom: 10px; }
+.admin-list{
+  border-radius: 10px;
+  background: rgb(165, 165, 165);
+  padding: 20px;
+  width: 1000px;
+  height: 20px;
+}

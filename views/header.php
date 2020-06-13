@@ -26,12 +26,14 @@
                                         <li><a href="gallery.php">Gallery</a></li>                                                                                                                     
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="reservations.php">Reservations</a></li>
-                                        <!-- <li><a href="login.php">Login</a></li> -->
                                         <li> <?php if (!isset($_SESSION["username"])): ?>
                                         <a href="index.php?logout='0'">Login</a></li>
                                         <?php endif ?>
-                                        <li> <?php if (isset($_SESSION["username"])): ?>
-                                        <a href="index.php?logout='1'">Logout</a></li>
+                                        <?php if (isset($_SESSION["username"])): ?>
+                                            <?php if ($_SESSION["username"] == 'admin') : ?>
+                                                <li><a href="adminpage.php">Booked Rooms</a><li>
+                                                <?php endif ?>
+                                        <li><a href="index.php?logout='1'">Logout</a></li>
                                         <?php endif ?>
                                     </ul>
                                 </nav>
