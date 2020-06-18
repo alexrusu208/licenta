@@ -62,9 +62,6 @@
 					
 					<div class="flex-sb-m w-full p-b-48">
 						<div>
-							<a href="#" class="txt3">
-								Forgot Password?
-							</a><br>
 							<a href="register.php" class="txt3">
 								No account? Register here.
 							</a>

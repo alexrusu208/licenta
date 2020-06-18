@@ -69,7 +69,6 @@
                                 <h3>Restaurant</h3>
                                 <p>In our restaurant the breakfast is included in the room price.<br>
                                    You cand also eat lunch in our hotel but the price is not included in the price of the room.</p>
-                                <a href="#" class="btn border-btn">Learn More <i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
                     </div>

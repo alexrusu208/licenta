@@ -28,18 +28,20 @@
                 </div>
             <?php endif ?>            
         </div>
-        <div class="single-room mb-50">
-            <h3><a href="rooms.php">Classic Double Bed</a></h3>
-                <div class="per-night">
-                    <span><u>$</u>150 <span>/ per night</span></span>
-                </div>
-        </div>
-        <div class="single-room mb-50">
-            <h3><a href="rooms.php">Classic Double Bed</a></h3>
-                <div class="per-night">
-                    <span><u>$</u>150 <span>/ per night</span></span>
-                </div>
-        </div>
+        <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Check in date</th>
+      <th scope="col">Check out date</th>
+      <th scope="col">Room number</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody >
+   <?php include ('./reservations_list.php'); ?>
+  </tbody>
+</table>
     </main>
     <?php include('./views/js.php') ?>
     </body>

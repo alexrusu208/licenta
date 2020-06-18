@@ -106,7 +106,12 @@
         
             
         }
-    
+        if (isset($_POST['delete-reservation'])) {
+
+            $id_reservation = $_POST['id_reservation'];
+            $sql = "DELETE FROM reservation WHERE id_reservation='$id_reservation'";
+            mysqli_query($db, $sql);
+        }   
         //Logout
         if (isset($_GET['logout'])) {
             session_destroy();

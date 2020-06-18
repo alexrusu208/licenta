@@ -29,86 +29,98 @@
         </div>
         <!-- slider Area End-->
 
-        <!-- Room Start -->
+      
         <section class="room-area r-padding1">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <!--font-back-tittle  -->
+                     
                         
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room1.jpg" data-lightbox="picture1"><img src="assets/img/rooms/room1.jpg" alt=""></a>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room2.jpg" data-lightbox="picture2"><img src="assets/img/rooms/room2.jpg" alt=""></a>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                   
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room3.jpg" data-lightbox="picture3"> <img src="assets/img/rooms/room3.jpg" alt=""></a>
-                            </div>
-                            
+                            </div>                           
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
                         <div class="single-room mb-50">
                             <div class="room-img">
                                 <a href="assets/img/rooms/room4.jpg" data-lightbox="picture4"><img src="assets/img/rooms/room4.jpg" alt=""></a>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                      
                         <div class="single-room mb-50">
                             <div class="room-img">
                                 <a href="assets/img/rooms/room5.jpg" data-lightbox="picture5"><img src="assets/img/rooms/room5.jpg" alt=""></a>
-                            </div>
-                            
+                            </div>                            
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                      
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room6.jpg" data-lightbox="picture6"> <img src="assets/img/rooms/room6.jpg" alt=""></a>
-                            </div>
-                           
+                            </div>                           
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                      
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room7.jpg" data-lightbox="picture7"> <img src="assets/img/rooms/room7.jpg" alt=""></a>
-                            </div>
-                           
+                            </div>                           
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <!-- Single Room -->
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
                         <div class="single-room mb-50">
                             <div class="room-img">
                                <a href="assets/img/rooms/room8.jpg" data-lightbox="picture8"> <img src="assets/img/rooms/room8.jpg" alt=""></a>
-                            </div>
-                           
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets\img\hero\wallpaper1.jpg" data-lightbox="picture9"> <img src="assets\img\hero\wallpaper1.jpg" alt=""></a>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets\img\gallery\gallery1.jpg" data-lightbox="picture10"> <img src="assets\img\gallery\gallery1.jpg" alt=""></a>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets\img\gallery\gallery2.jpg" data-lightbox="picture11"> <img src="assets\img\gallery\gallery2.jpg" alt=""></a>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">                     
+                        <div class="single-room mb-50">
+                            <div class="room-img">
+                               <a href="assets\img\gallery\gallery3.jpg" data-lightbox="picture12"> <img src="assets\img\gallery\gallery3.jpg" alt=""></a>
+                            </div>                           
                         </div>
                     </div>
                 </div>
@@ -116,7 +128,7 @@
             </div>
 
         </section>
-        <!-- Room End -->
+       
     </main>
 
    <footer>

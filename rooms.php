@@ -51,9 +51,9 @@
                                <a href="rooms.php"><img src="assets/img/rooms/room1.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 1</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>50 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -65,9 +65,9 @@
                                <a href="rooms.php"><img src="assets/img/rooms/room2.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 2</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>70 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -79,9 +79,9 @@
                                <a href="rooms.php"> <img src="assets/img/rooms/room3.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 3</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>60 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -93,9 +93,9 @@
                                 <a href="rooms.php"><img src="assets/img/rooms/room4.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 4</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>80 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +107,9 @@
                                 <a href="rooms.php"><img src="assets/img/rooms/room5.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 5</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>50 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -121,9 +121,9 @@
                                <a href="rooms.php"> <img src="assets/img/rooms/room6.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 6</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>100 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -135,9 +135,9 @@
                                <a href="rooms.php"> <img src="assets/img/rooms/room7.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 7</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>75 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
@@ -149,9 +149,9 @@
                                <a href="rooms.php"> <img src="assets/img/rooms/room8.jpg" alt=""></a>
                             </div>
                             <div class="room-caption">
-                                <h3><a href="rooms.php">Classic Double Bed</a></h3>
+                                <h3><a href="rooms.php">Room 8</a></h3>
                                 <div class="per-night">
-                                    <span><u>$</u>150 <span>/ per night</span></span>
+                                    <span><u>$</u>95 <span>/ per night</span></span>
                                 </div>
                             </div>
                         </div>
