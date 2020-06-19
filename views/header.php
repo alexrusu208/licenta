@@ -16,12 +16,6 @@
                                         <li><a href="index.php">Home</a></li>
                                         <li><a href="informations.php">Info</a></li>
                                         <li><a href="workshops.php">Workshops</a></li>
-                                        <!-- <li><a href="blog.php">Blog</a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.php">Blog</a></li>
-                                                <li><a href="single-blog.php">Blog Details</a></li>
-                                            </ul>
-                                        </li> -->
                                         <li><a href="rooms.php">Rooms</a></li>    
                                         <li><a href="gallery.php">Gallery</a></li>                                                                                                                     
                                         <li><a href="contact.php">Contact</a></li>

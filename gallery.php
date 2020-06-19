@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
-        <title>Hotel</title>
+        <title>Arinne</title>
         <?php include('./views/head.php') ?>
         <link href="src/css/lightbox.css" rel="stylesheet" />
    </head>

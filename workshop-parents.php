@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
-        <title>Hotel</title>
+        <title>Arinne</title>
         <?php include('./views/head.php') ?>
    </head>
 
@@ -17,7 +17,7 @@
                     <div class="col-lg-8 col-md-8">
                         <div class="dining-caption">
                             <h3>Workshop for parents</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                            <p>This type of workshop has the activities organised in a way so that both parents and children could work toghether resolving the tasks. The activities are a bit more complex than the ones from the workshops destined only for children. They are like this so that the parents could help their children working as a team. This type of workshop has the same purpose of teaching and broadening the mind.</p>
                         </div>
                     </div>
                 </div>

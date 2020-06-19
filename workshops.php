@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
-        <title>Hotel</title>
+        <title>Arinne</title>
         <?php include('./views/head.php') ?>
    </head>
 
@@ -38,7 +38,7 @@
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption">
                                 <h3>Workshop for parents</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                                <p>Summer workshops suitable for children.</p>
                                 <a href="workshop-parents.php" class="btn border-btn">Learn More <i class="ti-angle-right"></i> </a>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="col-lg-8 col-md-8">
                             <div class="dining-caption text-right">
                                 <h3>Workshop for children</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                                <p>Workshops suitable for both parents and children.</p>
                                 <a href="workshop-children.php" class="btn border-btn">Learn More  <i class="ti-angle-right"></i></a>
                             </div>
                         </div>

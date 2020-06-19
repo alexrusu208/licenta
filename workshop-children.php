@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
-        <title>Hotel</title>
+        <title>Arinne</title>
         <?php include('./views/head.php') ?>
    </head>
 
@@ -17,7 +17,7 @@
                     <div class="col-lg-8 col-md-8">
                         <div class="dining-caption">
                             <h3>Workshop for children</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud.</p>
+                            <p>Those workshop programms are destined for children. While the parents rest at the spa, the children can do entertaining activities that broaden their mind. These workshops will teach them through practice new notions. The period during which the workshops take place is the summer holiday.</p>
                         </div>
                     </div>
                 </div>

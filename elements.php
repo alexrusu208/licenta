@@ -3,7 +3,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
-	<title>Hotel</title>
+	<title>Arinne</title>
 		<?php include('./views/head.php') ?>
 </head>
 
